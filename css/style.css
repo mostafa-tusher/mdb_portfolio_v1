@@ -1,0 +1,104 @@
+/*=============================
+Template Name: MDB Bootstrp 5
+Template URI: 
+Author: Kazi Golam Mostafa
+Author URI: 
+=============================*/
+
+/*=============================
+CSS INDEX
+--------------
+
+=============================*/
+
+/*Common CSS Start*/
+
+html, body{
+    scroll-behavior: smooth;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.gradient{
+    background: rgb(3,94,241);
+    background: linear-gradient(170deg, rgba(3,94,241,1) 0%, rgba(97,8,202,1) 60%); 
+}
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Common CSS end*/
+
+/*Navbar Start*/
+
+.nav-link {
+    color: black;
+    margin: auto;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.nav-link:hover{
+    background:rgba(3,94,241,1);
+    color: black;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+/*Navbar end*/
+
+
+/*Feature start*/
+
+#feature ul{
+    list-style-type: none;
+    padding-top: 1rem;
+}
+
+#feature ul li{
+    background: url(../img/check.svg) no-repeat;
+    padding-left: 2rem;
+    margin-top: .5rem;
+}
+
+/*Feature end*/
+
+.icon{
+    width: 4rem;
+    height: 4rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+#gallery{
+    background-color: #f5f5f5;
+}
+
+#contact{
+    background-color: #f5f5f5;
+}
+
+/*Footer Section Start*/
+footer{
+    padding: 1% 10%;
+    background-color: #524e49;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer a:hover{
+    color: rgba(0, 0, 0, 0.9);
+}
+/*Footer Section End*/
